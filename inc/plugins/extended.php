@@ -14,7 +14,7 @@ function extended_info()
         'author'      => 'MyBBService',
         'authorsite'  => 'http://mybbservice.de/',
         'guid'        => '',
-		'compatibility'	=> '16*',
+		'compatibility'	=> '16*, 17*',
     );
 }
 
