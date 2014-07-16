@@ -6,17 +6,17 @@ if(!defined("IN_MYBB"))
 
 function extended_info()
 {
-    return array(
-		'name'        => 'Erweiterte Zeitraum Suche',
-		'description' => 'Erstellt eine Tabelle in der Suche nach heutigen Beiträgen zur Suche nach älteren Beiträgen',
-		'website'     => 'http://mybbservice.de/',
-		'version'     => '1.0.1',
-		'author'      => 'MyBBService',
-		'authorsite'  => 'http://mybbservice.de/',
-		'guid'        => '',
-		'compatibility'	=> '16*',
-		'dlcid'		  => '20'
-    );
+	return array(
+		'name'			=> 'Erweiterte Zeitraum Suche',
+		'description'	=> 'Erstellt eine Tabelle in der Suche nach heutigen Beiträgen zur Suche nach älteren Beiträgen',
+		'website'		=> 'http://mybbservice.de/',
+		'version'		=> '1.0.2',
+		'author'		=> 'MyBBService',
+		'authorsite'	=> 'http://mybbservice.de/',
+		'guid'			=> '',
+		'compatibility'	=> '*',
+		'dlcid'			=> '20'
+	);
 }
 
 function extended_activate()
